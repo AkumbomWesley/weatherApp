@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>WEATHER APP</h1>
+  <div id = "weatherContainer">
+  <form id="weatherForm">
+    <label for="cityInput" style="font-size: 25px; color: white">Enter city name:</label>
+    <input type="text" id="cityInput" required>
+    <button type="submit" id="button"><b>Get Weather</b></button>
+  </form>
+</div>
+  <div id="weatherInfo">
+    <h2>Weather Information</h2>
+    <p id="temperature" style="font-weight: bold"></p>
+    <p id="description" style="font-weight: bold"></p>
+    <p id="humidity" style="font-weight: bold"></p>
+    <p id="error" style="font-weight: bold"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
